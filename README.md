@@ -22,9 +22,13 @@ It uses LangChain’s RunnableBranch to route inputs based on intent — a simpl
 🚀 Features
 
 ✅ Dynamic Tool Routing — The agent decides if an input is a math expression or a text query.
+
 ✅ Safe Evaluation — Uses a restricted eval environment for secure arithmetic.
+
 ✅ LangChain RunnableBranch — Elegant branching logic for modular reasoning.
+
 ✅ OpenAI GPT-4o-mini Integration — Handles non-math natural language queries.
+
 ✅ Extensible Design — Easily add more tools (e.g., weather, search, database).
 
 -------------------------------------------------------------------------------------------------------------
