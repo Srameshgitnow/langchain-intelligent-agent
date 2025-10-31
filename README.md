@@ -30,6 +30,7 @@ It uses LangChain’s RunnableBranch to route inputs based on intent — a simpl
 -------------------------------------------------------------------------------------------------------------
 
 💡 Example Usage
+
 Input 1: Natural Language
 print(agent_executor("What is the difference between AI Agents and Agentic AI?"))
 
@@ -52,6 +53,7 @@ print(agent_executor("5373 + 138380 + 383838"))
 -------------------------------------------------------------------------------------------------------------
 
 ⚙️ Setup Instructions
+
 1️⃣ Clone the Repository
 git clone https://github.com/<your-username>/langchain-intelligent-agent.git
 cd langchain-intelligent-agent
@@ -73,6 +75,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 -------------------------------------------------------------------------------------------------------------
 
 🧩 Code Overview
+
 🔹 Step 1: Define a Safe Calculator Tool
 def safe_eval(expression: str) -> str:
     expression = re.sub(r"[^0-9+\-*/().]", "", expression)
