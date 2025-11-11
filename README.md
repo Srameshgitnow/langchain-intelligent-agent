@@ -59,15 +59,19 @@ print(agent_executor("5373 + 138380 + 383838"))
 ⚙️ Setup Instructions
 
 1️⃣ Clone the Repository
+
 git clone https://github.com/<your-username>/langchain-intelligent-agent.git
+
 cd langchain-intelligent-agent
 
 2️⃣ Create and Activate Virtual Environment
+
 python -m venv venv
 source venv/bin/activate       # (Linux/macOS)
 venv\Scripts\activate          # (Windows)
 
 3️⃣ Install Dependencies
+
 pip install -r requirements.txt
 
 4️⃣ Set Environment Variable
